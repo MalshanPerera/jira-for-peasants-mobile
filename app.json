@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "jira-for-peasents",
+    "slug": "jira-for-peasents",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sujitha304.jiraforpeasents"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sujitha304.jiraforpeasents"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "264d4935-71a7-44ba-8a9a-ae5d9f33e5cc"
+      }
+    },
+    "owner": "sujitha304",
+    "updates": {
+      "url": "https://u.expo.dev/264d4935-71a7-44ba-8a9a-ae5d9f33e5cc"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
